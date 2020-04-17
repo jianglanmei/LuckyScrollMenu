@@ -17,9 +17,7 @@
 		DEA3391E24401F000016B96F /* MyMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3391D24401F000016B96F /* MyMenuTests.m */; };
 		DEA3392924401F000016B96F /* MyMenuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3392824401F000016B96F /* MyMenuUITests.m */; };
 		DEA3393824401F1A0016B96F /* MyMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3393724401F1A0016B96F /* MyMenuView.m */; };
-		DEA3393D24406E9E0016B96F /* MenuBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3393C24406E9E0016B96F /* MenuBaseViewController.m */; };
 		DEA33940244080600016B96F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA3393F244080600016B96F /* FirstViewController.m */; };
-		DEA33943244080690016B96F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA33942244080690016B96F /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +59,8 @@
 		DEA3393624401F1A0016B96F /* MyMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyMenuView.h; sourceTree = "<group>"; };
 		DEA3393724401F1A0016B96F /* MyMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMenuView.m; sourceTree = "<group>"; };
 		DEA3393A244021540016B96F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		DEA3393B24406E9E0016B96F /* MenuBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuBaseViewController.h; sourceTree = "<group>"; };
-		DEA3393C24406E9E0016B96F /* MenuBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuBaseViewController.m; sourceTree = "<group>"; };
 		DEA3393E244080600016B96F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		DEA3393F244080600016B96F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		DEA33941244080690016B96F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		DEA33942244080690016B96F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,12 +117,8 @@
 				DEA3390524401EFF0016B96F /* SceneDelegate.m */,
 				DEA3390724401EFF0016B96F /* ViewController.h */,
 				DEA3390824401EFF0016B96F /* ViewController.m */,
-				DEA3393B24406E9E0016B96F /* MenuBaseViewController.h */,
-				DEA3393C24406E9E0016B96F /* MenuBaseViewController.m */,
 				DEA3393E244080600016B96F /* FirstViewController.h */,
 				DEA3393F244080600016B96F /* FirstViewController.m */,
-				DEA33941244080690016B96F /* SecondViewController.h */,
-				DEA33942244080690016B96F /* SecondViewController.m */,
 				DEA3393624401F1A0016B96F /* MyMenuView.h */,
 				DEA3393724401F1A0016B96F /* MyMenuView.m */,
 				DEA3390A24401EFF0016B96F /* Main.storyboard */,
@@ -293,9 +283,7 @@
 				DEA3393824401F1A0016B96F /* MyMenuView.m in Sources */,
 				DEA33940244080600016B96F /* FirstViewController.m in Sources */,
 				DEA3390324401EFF0016B96F /* AppDelegate.m in Sources */,
-				DEA33943244080690016B96F /* SecondViewController.m in Sources */,
 				DEA3391424401F000016B96F /* main.m in Sources */,
-				DEA3393D24406E9E0016B96F /* MenuBaseViewController.m in Sources */,
 				DEA3390624401EFF0016B96F /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

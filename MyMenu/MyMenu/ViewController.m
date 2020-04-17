@@ -8,9 +8,7 @@
 
 #import "ViewController.h"
 #import "MyMenuView.h"
-#import "MenuBaseViewController.h"
 #import "FirstViewController.h"
-#import "SecondViewController.h"
 
 @interface ViewController ()<MyMenuViewDelegate, UIScrollViewDelegate>
 @property (nonatomic, strong) UIScrollView *scrollView;
