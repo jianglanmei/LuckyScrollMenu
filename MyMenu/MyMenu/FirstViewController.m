@@ -7,9 +7,10 @@
 //
 
 #import "FirstViewController.h"
-
+#import "HeaderView.h"
 @interface FirstViewController ()<UITableViewDataSource, UITableViewDelegate>
 @property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) HeaderView *headerView;
 @end
 
 @implementation FirstViewController
@@ -31,10 +32,18 @@
     NSLog(@"index = %ld", self.menuType);
     
     self.view.backgroundColor = [UIColor greenColor];
-    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
-    [self.view addGestureRecognizer:tap];
+//    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick)];
+//    [self.view addGestureRecognizer:tap];
     
     [self.view addSubview:self.tableView];
+}
+
+- (HeaderView *)headerView
+{
+    if (!_headerView) {
+        _headerView = [[HeaderView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, 320)];
+    }
+    return _headerView;
 }
 
 - (UITableView *)tableView {
@@ -42,9 +51,14 @@
         _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, kWIDTH, self.height) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
+        if (self.menuType == MenuTypeAll) {
+            _tableView.tableHeaderView = self.headerView;
+        }
     }
     return _tableView;
 }
+
+
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
